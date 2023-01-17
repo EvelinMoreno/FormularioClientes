@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dosis:wght@500&family=Patua+One&family=Prompt&display=swap');
+body{
+  display: flex !important;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../public/fondo.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Main{
+  height: 100vh;
+  width: 100vw;
+  display: flex !important;
+}
+.BarraPrincipal{
+  font-family: 'Patua One', cursive;
+font-family: 'Prompt', sans-serif;
+  color: white;
+  display: flex !important;
+  align-items: center;
+  justify-content: center !important;
+  height: 12vh;
+  width: 100vw;
+  background-color:black;
+}
+.formulario{
+  background-color: rgb(85, 85, 124);
+  width: 45% !important;
+  height: 72vh;
+  display: flex !important;
+  margin-top: 30px;
+  margin-left: 40%;
+  align-items: center !important;
+  
+}
+.tformulario{
+  margin-left: 15% ;
+}
+.registro{
+  margin-left: 5px !important;
+}
+.Footer{
+  font-family: 'Advent Pro', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Prompt', sans-serif;
+  height: 40px;
+  width: 65%;
+  background-color:black;
+  display: flex !important;
+  margin-top: 35px;
+  margin-left: 32%;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
