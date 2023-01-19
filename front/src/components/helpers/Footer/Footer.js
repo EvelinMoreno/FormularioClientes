@@ -1,8 +1,8 @@
 const Footer = () => {
     return(
-        <section className= "Footer">
+        <footer className= "Footer">
         <h5>¡Una vida llena de estilo!</h5>
-        </section>
+        </footer>
     )
 }
 export default Footer;
